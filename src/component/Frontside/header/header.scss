@@ -1,0 +1,124 @@
+.header{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    min-height:100px;
+    align-items:center;
+    margin-bottom:20px;
+    top:0;
+    background-color:#36363b;
+    overflow:hidden;
+    @media  screen and  (max-width:500px){
+        
+            width:100%;
+            height:220px;
+            display:flex;
+            justify-content: space-between;
+            position:static;
+            flex-direction:column;
+            align-items: center;
+         
+    }
+       .logo{
+        flex:2;
+       padding-left:50px;
+       color:white;
+       text-transform:capitalize;
+       text-decoration:none;
+       @media  screen and (max-width:500px){
+            
+             font-size:23px;
+             padding:0;
+             text-transform:uppercase;
+         
+         }
+   }
+   
+.header-links{
+    display:flex;
+    justify-content:space-evenly;
+    @media  screen and  (max-width:500px){
+        
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+        
+    }
+     ul{
+        font-size:11px;
+        text-transform:uppercase;
+         margin-left:0;
+         margin-right:0;
+         padding-left:0;
+         padding-right:0;
+          li{
+            list-style:none;
+            display:inline-block;
+            font-size:20px;
+            font-weight:bold;
+            @media  screen and (max-width:500px){
+                
+                    font-weight:normal;
+                
+            }
+             a{
+                text-decoration:none;
+                padding:0 10px;
+                color:white;
+                @media  screen and (max-width:500px){
+                    
+                        padding:0;
+                    
+                }
+                &:hover{
+                    color:#fffc3c;
+                }
+                .cart-length{
+                    margin:3px;
+                    font-size:14px;
+                    font-weight:700;
+                    color:white;
+                    vertical-align:super;
+                    @media  screen and (max-width:500px){
+                        
+                            margin:0;
+                            font-weight:bold;
+                            color:yellow;  
+                        
+                        }
+                }
+            }
+        }
+    }
+}
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .cart{
+//     margin-right:30px;
+//     padding-right:20px;
+//     @media(max-width:500px){
+//         .cart{
+//             margin-right:0;
+//             padding-right:0;
+//         }
+//     }
+
+
+
